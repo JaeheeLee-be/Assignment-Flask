@@ -53,3 +53,4 @@ class Book(MethodView):
             abort(404, message="Book not found.")
         books.remove(book)
         return ""
+    
